@@ -1,0 +1,10 @@
+
+Solução: Baixar MacOS 11.7.X BigSur: Que foi a ultima a aceitar o programa que insere as permissões de um bundleID de um App.
+
+Procedimento:
+-> Baixa/Instala a versão mais recendo do BigSur(e que é a mais antiga aceita pelo Qoocam)
+-> Abre a App Store e baixa o Qoocam
+-> Libera permissão All(de tudo) para esse App
+-> Conecta o Wifi do MacBook no Hotspot da camera
+-> Faz Download de tudo da camera pro App Qoocam no MacBook
+-> Exporta como Mono(2D) e Fala com o GPT pra achar onde do Mac esta o conteúdo baixado

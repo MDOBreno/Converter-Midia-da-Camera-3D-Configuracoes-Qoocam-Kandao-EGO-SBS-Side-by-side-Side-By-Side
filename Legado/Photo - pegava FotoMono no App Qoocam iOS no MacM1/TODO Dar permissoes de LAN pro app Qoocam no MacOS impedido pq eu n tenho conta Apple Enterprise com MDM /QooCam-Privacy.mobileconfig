@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>QooCam Privacy Permissions</string>
+			<key>PayloadIdentifier</key>
+			<string>com.openai.qoocam.permissions</string>
+			<key>PayloadType</key>
+			<string>com.apple.TCC.configuration-profile-policy</string>
+			<key>PayloadUUID</key>
+			<string>7FA3D9D0-AC91-43C4-A96B-5D6A6D92FC80</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Services</key>
+			<dict>
+				<key>Accessibility</key>
+				<dict>
+					<key>Authorization</key>
+					<string>Allow</string>
+					<key>CodeRequirement</key>
+					<string>identifier "com.kandaovr.xeme.QooCam" and anchor apple</string>
+					<key>Identifier</key>
+					<string>com.kandaovr.xeme.QooCam</string>
+					<key>IdentifierType</key>
+					<string>bundleID</string>
+				</dict>
+				<key>AppleEvents</key>
+				<dict>
+					<key>Authorization</key>
+					<string>Allow</string>
+					<key>CodeRequirement</key>
+					<string>identifier "com.kandaovr.xeme.QooCam" and anchor apple</string>
+					<key>Identifier</key>
+					<string>com.kandaovr.xeme.QooCam</string>
+					<key>IdentifierType</key>
+					<string>bundleID</string>
+				</dict>
+				<key>Camera</key>
+				<dict>
+					<key>Authorization</key>
+					<string>Allow</string>
+					<key>CodeRequirement</key>
+					<string>identifier "com.kandaovr.xeme.QooCam" and anchor apple</string>
+					<key>Identifier</key>
+					<string>com.kandaovr.xeme.QooCam</string>
+					<key>IdentifierType</key>
+					<string>bundleID</string>
+				</dict>
+				<key>Microphone</key>
+				<dict>
+					<key>Authorization</key>
+					<string>Allow</string>
+					<key>CodeRequirement</key>
+					<string>identifier "com.kandaovr.xeme.QooCam" and anchor apple</string>
+					<key>Identifier</key>
+					<string>com.kandaovr.xeme.QooCam</string>
+					<key>IdentifierType</key>
+					<string>bundleID</string>
+				</dict>
+				<key>ScreenCapture</key>
+				<dict>
+					<key>Authorization</key>
+					<string>Allow</string>
+					<key>CodeRequirement</key>
+					<string>identifier "com.kandaovr.xeme.QooCam" and anchor apple</string>
+					<key>Identifier</key>
+					<string>com.kandaovr.xeme.QooCam</string>
+					<key>IdentifierType</key>
+					<string>bundleID</string>
+				</dict>
+			</dict>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Permissões de privacidade para o app QooCam no macOS.</string>
+	<key>PayloadDisplayName</key>
+	<string>QooCam Permissions Profile</string>
+	<key>PayloadExpirationDate</key>
+	<date>2030-01-01T00:00:00Z</date>
+	<key>PayloadIdentifier</key>
+	<string>com.openai.qoocam.profile</string>
+	<key>PayloadOrganization</key>
+	<string>OpenAI Custom</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>1E00B6E4-1E45-4C22-9014-8E4B5FA31A76</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
